@@ -381,7 +381,7 @@ Languages:
     @property
     async def name(self) -> str:
         """
-        :return: GitHub user's name (e.g., Jacob Strieb)
+        :return: GitHub user's name (e.g., Dani Alves)
         """
         if self._name is not None:
             return self._name
